@@ -330,7 +330,7 @@
     </div>
   
     <div class="container">
-        <button class="toggle-mode" onclick="toggleMode()">Light Mode</button>
+        <button class="toggle-mode" onclick="toggleMode()"></button>
         <div class="header">CRISS AI</div>
         <div class="subtitle">ULTIMATE SESSION MANAGER</div>
 
@@ -357,8 +357,8 @@
         function toggleMode() {
             const body = document.body;
             const toggleButton = document.querySelector('.toggle-mode');
-            body.classList.toggle('light-mode');
-            toggleButton.textContent = body.classList.contains('light-mode') ? 'Dark Mode' : 'Light Mode';
+            body.classList.toggle('dark-mode');
+            toggleButton.textContent = body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
         }
     </script>
 </body>
