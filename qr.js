@@ -70,16 +70,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "THARUSHA-MD=" + string_session;
+                        let md = "CRISS-AI-" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰-𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* `;
+                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 CRISS-AI 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* `;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ",
-thumbnailUrl: "https://i.ibb.co/8gVkV2pf/3326.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45",
+title: "CRISS-AI",
+thumbnailUrl: "https://files.catbox.moe/37xk9g.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -93,9 +93,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ",
-thumbnailUrl: "https://i.ibb.co/8gVkV2pf/3326.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45",
+title: "CRISS-AI",
+thumbnailUrl: "https://files.catbox.moe/37xk9g.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
